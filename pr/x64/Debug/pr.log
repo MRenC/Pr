@@ -1,1 +1,5 @@
-﻿  pr.vcxproj -> C:\Users\mamre\Desktop\git_pr\pr\x64\Debug\pr.exe
+﻿  pr.cpp
+C:\Users\mamre\Desktop\git_pr\pr\pr.cpp(25,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mamre\Desktop\git_pr\pr\pr.cpp(34,2): warning C4102: A: неиспользованная метка
+C:\Users\mamre\Desktop\git_pr\pr\pr.cpp(92,2): warning C4102: C: неиспользованная метка
+  pr.vcxproj -> C:\Users\mamre\Desktop\git_pr\pr\x64\Debug\pr.exe

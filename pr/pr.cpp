@@ -12,9 +12,6 @@
 using namespace std;
 
 
-
-
-
 void sohr(int* m, int* a, int n) {
 	for (int i = 0; i < n; i++) {
 		a[i] = m[i];
@@ -93,4 +90,47 @@ B: system("cls");
 	}
 
 C:  sohr(m, a, n);
+
+	system("cls");
+
+	printf("Провести перестановку в лексикографическом порядке - 1\n"); //Меню
+	printf("Задать новое множество - 2\n");
+	printf("Изменить элементы заданного множества - 3\n");
+	printf("Выйти из программы - 4\n");
+
+	scanf("%s", &choice);
+
+	switch (choice) {
+	case '1': //Перестановка
+		system("cls");
+		
+		break;
+
+	case '2': //Новое множество
+
+		system("cls");
+		
+		break;
+
+	case '3': //Перезаполнение множества
+
+		system("cls");
+		
+		break;
+
+	case '4': //Выход
+
+		system("cls");
+		exit(0);
+		break;
+
+	default: //Возврат
+
+		system("cls");
+		
+		break;
+	}
+
+	getchar();
+	return 0;
 }
