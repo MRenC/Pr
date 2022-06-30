@@ -1,3 +1,3 @@
 ﻿  pr.cpp
-C:\Users\mamre\Desktop\git_pr\pr\pr.cpp(26,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mamre\Desktop\git_pr\pr\pr.cpp(62,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   pr.vcxproj -> C:\Users\mamre\Desktop\git_pr\pr\x64\Debug\pr.exe

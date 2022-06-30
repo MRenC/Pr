@@ -11,7 +11,43 @@
 
 using namespace std;
 
+void perestanovka(int* a, int i, int j)
+{
+	int s = a[i];
+	a[i] = a[j];
+	a[j] = s;
+}
 
+bool leks(int* a, int n) //Алгоритм Нарайаны
+{
+	int j = n - 2;
+	while (j != -1 && a[j] >= a[j + 1]) j--;
+	if (j == -1)
+		return false;
+	int k = n - 1;
+	while (a[j] >= a[k]) k--;
+	perestanovka(a, j, k);
+	int l = j + 1;
+	int r = n - 1;
+	while (l < r)
+		perestanovka(a, l++, r--);
+	return true;
+}
+
+void print(int* a, int n)
+{
+
+	static int num = 1;
+	printf("Перестановка №%d ", num);
+	num = num + 1;
+
+
+	for (int i = 0; i < n; i++) {
+		printf("%d ", a[i]);
+	}
+
+	printf("\n");
+}
 
 void sohr(int* m, int* a, int n) {
 	for (int i = 0; i < n; i++) {
