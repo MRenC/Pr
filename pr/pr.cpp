@@ -140,6 +140,22 @@ C:  sohr(m, a, n);
 	switch (choice) {
 	case '1': //Перестановка
 		system("cls");
+		printf("Начинаем перестановку элементов\n");
+		print(a, n);
+		while (leks(a, n))
+			print(a, n); //Вывод элементов
+
+		FILE* fout;
+
+		fout = fopen("D:\\out.txt", "w"); //Запись в файл
+
+		if (fout) {
+			for (int i = 0; i < n; i++) {
+				fprintf(fout, "%d ", a[i]);
+			}
+		}
+
+		_getch();
 		goto C;
 		break;
 
