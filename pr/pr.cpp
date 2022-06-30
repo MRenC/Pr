@@ -12,6 +12,7 @@
 using namespace std;
 
 
+
 void sohr(int* m, int* a, int n) {
 	for (int i = 0; i < n; i++) {
 		a[i] = m[i];
@@ -103,19 +104,19 @@ C:  sohr(m, a, n);
 	switch (choice) {
 	case '1': //Перестановка
 		system("cls");
-		
+		goto C;
 		break;
 
 	case '2': //Новое множество
 
 		system("cls");
-		
+		goto A;
 		break;
 
 	case '3': //Перезаполнение множества
 
 		system("cls");
-		
+		goto B;
 		break;
 
 	case '4': //Выход
@@ -127,7 +128,7 @@ C:  sohr(m, a, n);
 	default: //Возврат
 
 		system("cls");
-		
+		goto C;
 		break;
 	}
 
