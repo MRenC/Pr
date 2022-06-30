@@ -1,0 +1,2 @@
+C:\Users\mamre\Desktop\pr\x64\Debug\pr.exe
+C:\Users\mamre\Desktop\git_pr\pr\x64\Debug\pr.exe
